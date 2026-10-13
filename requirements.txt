@@ -1,0 +1,11 @@
+torch==2.0.1
+transformers>=4.36,<5
+sentence-transformers>=2.2,<4
+scikit-learn>=1.2,<2
+pandas>=1.5,<3
+numpy>=1.23,<2
+PyYAML>=6.0
+tqdm>=4.65
+openai>=1.0
+jieba>=0.42
+gensim>=4.3,<5

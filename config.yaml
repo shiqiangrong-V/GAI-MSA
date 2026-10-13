@@ -1,0 +1,76 @@
+labels:
+  - happy
+  - angry
+  - sad
+  - fear
+  - surprise
+  - neutral
+
+seed: 42
+
+model:
+  encoder_name: "nghuyong/ernie-3.0-base-zh"
+  hidden_size: 768
+  max_length: 256
+  cnn:
+    kernel_sizes: [2, 3, 4]
+    filters_per_kernel: 128
+  attention:
+    projection_dim: 128
+  dropout: 0.30
+  num_classes: 6
+
+training:
+  epochs: 20
+  batch_size: 32
+  learning_rate: 0.000005
+  weight_decay: 0.02
+  optimizer: "adam"
+  num_workers: 0
+  device: "auto"
+  save_best_by: "macro_f1"
+
+augmentation:
+  openai_model: "gpt-4o-mini"
+  temperature: 0.70
+  top_p: 0.90
+  max_output_tokens: 128
+  max_candidates_per_source: 5
+  min_chars: 5
+  max_chars: 80
+  semantic_model: "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
+  similarity_min: 0.78
+  similarity_max: 0.98
+  sentiment_confidence_min: 0.70
+
+  candidate_quotas:
+    happy: 600
+    angry: 0
+    sad: 900
+    fear: 5500
+    surprise: 4200
+    neutral: 300
+
+  retained_targets:
+    happy: 420
+    angry: 0
+    sad: 620
+    fear: 3900
+    surprise: 3000
+    neutral: 180
+
+baselines:
+  transformer:
+    bert_name: "bert-base-chinese"
+    ernie_name: "nghuyong/ernie-3.0-base-zh"
+    bigru_hidden: 128
+  classic:
+    max_vocab: 30000
+    max_length: 128
+    embedding_dim: 200
+    hidden_dim: 128
+    batch_size: 64
+    epochs: 20
+    learning_rate: 0.001
+    textcnn_filters: 100
+    textcnn_kernels: [3, 4, 5]

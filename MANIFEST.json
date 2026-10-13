@@ -1,0 +1,222 @@
+[
+  {
+    "file": ".env.example",
+    "bytes": 28
+  },
+  {
+    "file": "LICENSE_NOT_SET.txt",
+    "bytes": 168
+  },
+  {
+    "file": "README.md",
+    "bytes": 6217
+  },
+  {
+    "file": "config.yaml",
+    "bytes": 1362
+  },
+  {
+    "file": "data/README.md",
+    "bytes": 248
+  },
+  {
+    "file": "requirements.txt",
+    "bytes": 178
+  },
+  {
+    "file": "run_main_pipeline.sh",
+    "bytes": 1345
+  },
+  {
+    "file": "scripts/__pycache__/build_augmented_train.cpython-313.pyc",
+    "bytes": 3839
+  },
+  {
+    "file": "scripts/__pycache__/evaluate.cpython-313.pyc",
+    "bytes": 1753
+  },
+  {
+    "file": "scripts/__pycache__/export_paper_tables.cpython-313.pyc",
+    "bytes": 1857
+  },
+  {
+    "file": "scripts/__pycache__/filter_augmentation.cpython-313.pyc",
+    "bytes": 2449
+  },
+  {
+    "file": "scripts/__pycache__/generate_augmentation.cpython-313.pyc",
+    "bytes": 1460
+  },
+  {
+    "file": "scripts/__pycache__/predict.cpython-313.pyc",
+    "bytes": 2870
+  },
+  {
+    "file": "scripts/__pycache__/prepare_data.cpython-313.pyc",
+    "bytes": 1786
+  },
+  {
+    "file": "scripts/__pycache__/run_ablation.cpython-313.pyc",
+    "bytes": 2592
+  },
+  {
+    "file": "scripts/__pycache__/train.cpython-313.pyc",
+    "bytes": 1669
+  },
+  {
+    "file": "scripts/__pycache__/train_baseline.cpython-313.pyc",
+    "bytes": 6500
+  },
+  {
+    "file": "scripts/__pycache__/train_classic_baseline.cpython-313.pyc",
+    "bytes": 6922
+  },
+  {
+    "file": "scripts/__pycache__/train_sentiment_filter.cpython-313.pyc",
+    "bytes": 1501
+  },
+  {
+    "file": "scripts/build_augmented_train.py",
+    "bytes": 2536
+  },
+  {
+    "file": "scripts/evaluate.py",
+    "bytes": 990
+  },
+  {
+    "file": "scripts/export_paper_tables.py",
+    "bytes": 918
+  },
+  {
+    "file": "scripts/filter_augmentation.py",
+    "bytes": 1411
+  },
+  {
+    "file": "scripts/generate_augmentation.py",
+    "bytes": 710
+  },
+  {
+    "file": "scripts/predict.py",
+    "bytes": 1461
+  },
+  {
+    "file": "scripts/prepare_data.py",
+    "bytes": 885
+  },
+  {
+    "file": "scripts/run_ablation.py",
+    "bytes": 1800
+  },
+  {
+    "file": "scripts/train.py",
+    "bytes": 950
+  },
+  {
+    "file": "scripts/train_baseline.py",
+    "bytes": 4551
+  },
+  {
+    "file": "scripts/train_classic_baseline.py",
+    "bytes": 4760
+  },
+  {
+    "file": "scripts/train_sentiment_filter.py",
+    "bytes": 694
+  },
+  {
+    "file": "src/gai_msa/__init__.py",
+    "bytes": 22
+  },
+  {
+    "file": "src/gai_msa/__pycache__/__init__.cpython-313.pyc",
+    "bytes": 178
+  },
+  {
+    "file": "src/gai_msa/__pycache__/augmentation.cpython-313.pyc",
+    "bytes": 10660
+  },
+  {
+    "file": "src/gai_msa/__pycache__/baselines.cpython-313.pyc",
+    "bytes": 10379
+  },
+  {
+    "file": "src/gai_msa/__pycache__/classic_data.cpython-313.pyc",
+    "bytes": 4020
+  },
+  {
+    "file": "src/gai_msa/__pycache__/constants.cpython-313.pyc",
+    "bytes": 505
+  },
+  {
+    "file": "src/gai_msa/__pycache__/data.cpython-313.pyc",
+    "bytes": 3831
+  },
+  {
+    "file": "src/gai_msa/__pycache__/metrics.cpython-313.pyc",
+    "bytes": 1527
+  },
+  {
+    "file": "src/gai_msa/__pycache__/model.cpython-313.pyc",
+    "bytes": 7569
+  },
+  {
+    "file": "src/gai_msa/__pycache__/sentiment_filter.cpython-313.pyc",
+    "bytes": 6394
+  },
+  {
+    "file": "src/gai_msa/__pycache__/training.cpython-313.pyc",
+    "bytes": 8025
+  },
+  {
+    "file": "src/gai_msa/__pycache__/utils.cpython-313.pyc",
+    "bytes": 2982
+  },
+  {
+    "file": "src/gai_msa/augmentation.py",
+    "bytes": 7873
+  },
+  {
+    "file": "src/gai_msa/baselines.py",
+    "bytes": 6063
+  },
+  {
+    "file": "src/gai_msa/classic_data.py",
+    "bytes": 1984
+  },
+  {
+    "file": "src/gai_msa/constants.py",
+    "bytes": 177
+  },
+  {
+    "file": "src/gai_msa/data.py",
+    "bytes": 1685
+  },
+  {
+    "file": "src/gai_msa/metrics.py",
+    "bytes": 968
+  },
+  {
+    "file": "src/gai_msa/model.py",
+    "bytes": 4817
+  },
+  {
+    "file": "src/gai_msa/sentiment_filter.py",
+    "bytes": 3919
+  },
+  {
+    "file": "src/gai_msa/training.py",
+    "bytes": 5876
+  },
+  {
+    "file": "src/gai_msa/utils.py",
+    "bytes": 1074
+  },
+  {
+    "file": "tests/__pycache__/test_static.cpython-313.pyc",
+    "bytes": 1880
+  },
+  {
+    "file": "tests/test_static.py",
+    "bytes": 1125
+  }
+]

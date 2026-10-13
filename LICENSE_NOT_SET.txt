@@ -1,0 +1,4 @@
+No software license has been selected.
+
+Before publishing this repository, choose a license consistent with your
+institutional policy and all third-party dependencies.
